@@ -2,7 +2,7 @@ import React from "react";
 
 import "../styles/scss/style.scss";
 
-import Navigation from "./navigation";
+import Navigation from "./Navigation";
 
 class Template extends React.Component {
   render() {
