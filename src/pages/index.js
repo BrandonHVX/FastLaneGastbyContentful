@@ -25,10 +25,7 @@ import Quote from "../components/Quote";
 
 class RootIndex extends React.Component {
   render() {
-    const siteTitle = get(this, "props.data.site.siteMetadata.title");
-    const posts = get(this, "props.data.allContentfulBlogPost.edges");
     const images = get(this, "props.data.allFile.edges");
-    const [author] = get(this, "props.data.allContentfulPerson.edges");
 
     return (
       <Layout>
