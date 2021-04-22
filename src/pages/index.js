@@ -13,15 +13,15 @@ import {
   Row
 } from "react-bootstrap";
 
-import Layout from "../components/layout.js";
+import Layout from "../components/Layout";
 
 import Img from "gatsby-image";
 
-import Features from "../components/Features.js";
-import Footer from "../components/Footer.js";
+import Features from "../components/Features";
+import Footer from "../components/Footer";
 
-import Cta from "../components/Cta.js";
-import Quote from "../components/Quote.js";
+import Cta from "../components/Cta";
+import Quote from "../components/Quote";
 
 class RootIndex extends React.Component {
   render() {
