@@ -12,16 +12,16 @@ import {
   Nav,
   Row
 } from "react-bootstrap";
-import Hero from "../components/hero";
+
 import Layout from "../components/layout";
 
 import Img from "gatsby-image";
 
-import Features from "../components/features";
-import Footer from "../components/footer.js";
+import Features from "../components/Features";
+import Footer from "../components/Footer.js";
 
-import Cta from "../components/cta.js";
-import Quote from "../components/quote.js";
+import Cta from "../components/Cta.js";
+import Quote from "../components/Quote.js";
 
 class RootIndex extends React.Component {
   render() {
