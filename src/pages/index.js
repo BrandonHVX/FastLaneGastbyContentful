@@ -14,18 +14,14 @@ import {
 } from "react-bootstrap";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
-import ArticlePreview from "../components/article-preview";
+
 import Img from "gatsby-image";
-import Services from "../components/services";
+
 import Features from "../components/features";
 import Footer from "../components/footer.js";
-import Menu from "../components/menu.js";
+
 import Cta from "../components/cta.js";
 import Quote from "../components/quote.js";
-import HeaderCta from "../components/headercta.js";
-import Clients from "../components/clients.js";
-import Highlights from "../components/highlights.js";
-import BackgroundImage from "gatsby-background-image";
 
 class RootIndex extends React.Component {
   render() {
