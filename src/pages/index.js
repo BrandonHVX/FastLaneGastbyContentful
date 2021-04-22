@@ -13,11 +13,11 @@ import {
   Row
 } from "react-bootstrap";
 
-import Layout from "../components/layout";
+import Layout from "../components/layout.js";
 
 import Img from "gatsby-image";
 
-import Features from "../components/Features";
+import Features from "../components/Features.js";
 import Footer from "../components/Footer.js";
 
 import Cta from "../components/Cta.js";
