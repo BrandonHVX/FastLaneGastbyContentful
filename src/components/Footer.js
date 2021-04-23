@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import FastLaneLogo from "../images/logo/fastlane.png";
 
 export default class Footer extends Component {
   render() {
@@ -53,11 +54,7 @@ export default class Footer extends Component {
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
                 <div class="footer__widget-content">
-                  <img
-                    src="assets/images/logo/logo-small.png"
-                    alt="logo"
-                    class="footer-logo"
-                  />
+                  <img src={FastLaneLogo} alt="logo" class="footer-logo" />
                   <p>
                     Our global Optimecs expertise, advanced supply chain
                     technology & customized Optimecs solutions will help you
@@ -66,11 +63,10 @@ export default class Footer extends Component {
                   <ul class="contact__list list-unstyled">
                     <li>
                       <span>Email:</span>
-                      <span>Optime@7oroof.com</span>
+                      <span>Optime@fastlane-transfer.com</span>
                     </li>
                     <li>
                       <span>Phone:</span>
-                      <span>+01234567890</span>
                     </li>
                   </ul>
                 </div>
@@ -188,8 +184,7 @@ export default class Footer extends Component {
             <div class="row align-items-center">
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="footer__copyright">
-                  <span>&copy; 2019 Optime, with Love by</span>
-                  <a href="http://themeforest.net/user/7oroof">7oroof.com</a>
+                  <span>&copy; 2019 Fastlane Transfer</span>
                 </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6">

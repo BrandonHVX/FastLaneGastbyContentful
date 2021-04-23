@@ -68,7 +68,7 @@ class RootIndex extends React.Component {
         <section id="fancyboxLayout3" class="fancybox-layout3 p-0">
           <div class="container">
             <div class="row fancybox-boxes-wrap">
-              <button class="col-sm-6 col-md-6 col-lg-3 fancybox-item">
+              <div class="col-sm-6 col-md-6 col-lg-3 fancybox-item ">
                 <div class="fancybox__icon">
                   <i class="icon-wallet"></i>
                 </div>
@@ -79,11 +79,11 @@ class RootIndex extends React.Component {
                     regulations.
                   </p>
                 </div>
-              </button>
+              </div>
 
               <div class="col-sm-6 col-md-6 col-lg-3 fancybox-item">
                 <div class="fancybox__icon">
-                  <i class="icon-search"></i>
+                  <i class="icon-call-center"></i>
                 </div>
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">24/7 Hour Support</h4>
@@ -108,7 +108,7 @@ class RootIndex extends React.Component {
 
               <div class="col-sm-6 col-md-6 col-lg-3 fancybox-item">
                 <div class="fancybox__icon">
-                  <i class="icon-package-6"></i>
+                  <i class="icon-wishlist"></i>
                 </div>
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Personalized Solutions</h4>

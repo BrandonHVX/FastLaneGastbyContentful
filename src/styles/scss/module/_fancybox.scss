@@ -92,7 +92,7 @@
 
   .fancybox-item {
     padding: 38px 24px 40px 30px !important;
-    border-right: 2px solid #eaeaea;
+
     margin-bottom: 0;
     position: relative;
     z-index: 10;
@@ -154,6 +154,16 @@
   .carousel-arrows .owl-nav .owl-prev {
     left: -70px;
   }
+  .fancybox-item {
+    border-right: 5px solid $color-gray;
+    .fancybox__icon {
+      margin-bottom: 10px;
+    }
+
+    .fancybox__title {
+      margin-bottom: 12px;
+    }
+  }
 }
 
 @media only screen and (min-width: 990px) and (max-width: 1040px) {
@@ -163,6 +173,17 @@
 
   .fancybox-carousel .carousel-arrows .owl-nav .owl-prev {
     left: -40px;
+  }
+
+  .fancybox-item {
+    border-right: 5px solid $color-gray;
+    .fancybox__icon {
+      margin-bottom: 10px;
+    }
+
+    .fancybox__title {
+      margin-bottom: 12px;
+    }
   }
 }
 
@@ -177,6 +198,8 @@
   }
 
   .fancybox-item {
+    border-bottom: 5px solid $color-gray;
+    border-right: 5px solid $color-gray;
     .fancybox__icon {
       margin-bottom: 10px;
     }
@@ -192,6 +215,8 @@
   .fancybox-item,
   .fancybox-layout1 .fancybox-item {
     margin-bottom: 30px;
+    border-bottom: 5px solid $color-gray;
+    border-right: 5px solid $color-gray;
   }
 
   .fancybox-item .fancybox__icon {
