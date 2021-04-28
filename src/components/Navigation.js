@@ -23,82 +23,66 @@ const Navigation = () => {
             </span>
           </button>
           <div class="collapse navbar-collapse" id="mainNavigation">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav m-auto">
               <li class="nav__item with-dropdown">
-                <a
-                  href="index.html"
-                  class="dropdown-toggle nav__item-link active"
+                <Link
+                  to="/"
+                  class="dropdown-toggle nav__item-link"
+                  activeClassName="nav__item-link active"
                 >
                   Home
-                </a>
+                </Link>
                 <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-                <ul class="dropdown-menu">
-                  <li class="nav__item">
-                    <a href="index.html" class="nav__item-link">
-                      Home Main
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="home-modern.html" class="nav__item-link">
-                      Home Moderm
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="home-classic.html" class="nav__item-link">
-                      Home classic
-                    </a>
-                  </li>
-                </ul>
               </li>
               <li class="nav__item with-dropdown">
-                <a href="about-us.html" class="dropdown-toggle nav__item-link">
+                <Link
+                  to="/company/about"
+                  activeClassName="nav__item-link active"
+                  class="dropdown-toggle nav__item-link"
+                >
                   Company
-                </a>
+                </Link>
                 <i class="fa fa-angle-right" data-toggle="dropdown"></i>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
-                    <a href="about-us.html" class="nav__item-link">
+                    <Link
+                      to="/company/about"
+                      activeClassName="nav__item-link active"
+                      class="dropdown-toggle nav__item-link"
+                    >
                       About Us
-                    </a>
+                    </Link>
                   </li>
 
                   <li class="nav__item">
-                    <a href="why-us.html" class="nav__item-link">
+                    <Link
+                      to="/company/about"
+                      activeClassName="nav__item-link active"
+                      class="dropdown-toggle nav__item-link"
+                    >
                       Why Choose Us
-                    </a>
+                    </Link>
                   </li>
 
                   <li class="nav__item">
-                    <a href="leadership-team.html" class="nav__item-link">
+                    <Link
+                      to="/company/about"
+                      activeClassName="nav__item-link active"
+                      class="dropdown-toggle nav__item-link"
+                    >
                       Leadership Team
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="global-locations.html" class="nav__item-link">
-                      Global Locations
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="gallery.html" class="nav__item-link">
-                      Our Gallery
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="careers.html" class="nav__item-link">
-                      careers
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li class="nav__item with-dropdown">
-                <a href="services.html" class="dropdown-toggle nav__item-link">
+                <Link
+                  to="/services/"
+                  activeClassName="nav__item-link active"
+                  class="dropdown-toggle nav__item-link"
+                >
                   Services
-                </a>
+                </Link>
                 <i class="fa fa-angle-right" data-toggle="dropdown"></i>
                 <ul class="dropdown-menu wide-dropdown-menu">
                   <li class="nav__item">
@@ -119,7 +103,7 @@ const Navigation = () => {
                               class="nav__item-link"
                               href="single-service.html"
                             >
-                              Air Freight
+                              Expedited Delivery
                             </a>
                           </li>
                           <li class="nav__item">
@@ -127,7 +111,7 @@ const Navigation = () => {
                               class="nav__item-link"
                               href="single-service.html"
                             >
-                              Ocean Freight
+                              Final Mile
                             </a>
                           </li>
                           <li class="nav__item">
@@ -135,23 +119,7 @@ const Navigation = () => {
                               class="nav__item-link"
                               href="single-service.html"
                             >
-                              Road Freight
-                            </a>
-                          </li>
-                          <li class="nav__item">
-                            <a
-                              class="nav__item-link"
-                              href="single-service.html"
-                            >
-                              Supply Chain
-                            </a>
-                          </li>
-                          <li class="nav__item">
-                            <a
-                              class="nav__item-link"
-                              href="single-service.html"
-                            >
-                              Packaging
+                              Long Haul
                             </a>
                           </li>
                         </ul>
@@ -164,7 +132,7 @@ const Navigation = () => {
                               class="nav__item-link"
                               href="single-industry.html"
                             >
-                              Retail & Consumer
+                              Amazon Delivery
                             </a>
                           </li>
                           <li class="nav__item">
@@ -172,25 +140,10 @@ const Navigation = () => {
                               class="nav__item-link"
                               href="single-industry.html"
                             >
-                              Sciences & Healthcare
+                              Owners & Operators
                             </a>
                           </li>
-                          <li class="nav__item">
-                            <a
-                              class="nav__item-link"
-                              href="single-industry.html"
-                            >
-                              Industrial & Chemical
-                            </a>
-                          </li>
-                          <li class="nav__item">
-                            <a
-                              class="nav__item-link"
-                              href="single-industry.html"
-                            >
-                              Power Generation
-                            </a>
-                          </li>
+
                           <li class="nav__item">
                             <a
                               class="nav__item-link"
@@ -204,7 +157,7 @@ const Navigation = () => {
                               class="nav__item-link"
                               href="single-industry.html"
                             >
-                              Oil & Gas
+                              Small Businesses
                             </a>
                           </li>
                         </ul>
@@ -213,81 +166,10 @@ const Navigation = () => {
                   </li>
                 </ul>
               </li>
-              <li class="nav__item with-dropdown">
-                <a href="blog-grid.html" class="dropdown-toggle nav__item-link">
-                  News & Media
-                </a>
-                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-                <ul class="dropdown-menu">
-                  <li class="nav__item">
-                    <a href="blog-grid.html" class="nav__item-link">
-                      blog grid
-                    </a>
-                  </li>
 
-                  <li class="nav__item">
-                    <a href="blog-single-post.html" class="nav__item-link">
-                      blog single post
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="case-studies.html" class="nav__item-link">
-                      case studies
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="case-studies-single.html" class="nav__item-link">
-                      case study Single
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav__item with-dropdown">
-                <a
-                  href="#"
-                  data-toggle="dropdown"
-                  class="dropdown-toggle nav__item-link"
-                >
-                  Features
-                </a>
-                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-                <ul class="dropdown-menu">
-                  <li class="nav__item">
-                    <a href="request-quote.html" class="nav__item-link">
-                      request a quote
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="track-shipment.html" class="nav__item-link">
-                      track and trace
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="find-location.html" class="nav__item-link">
-                      find Location
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="rates.html" class="nav__item-link">
-                      Rates & Pricing
-                    </a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a href="faqs.html" class="nav__item-link">
-                      help and faqs
-                    </a>
-                  </li>
-                </ul>
-              </li>
               <li class="nav__item">
                 <a href="contacs.html" class="nav__item-link">
-                  Contacts
+                  Contact
                 </a>
               </li>
             </ul>

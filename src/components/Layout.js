@@ -3,8 +3,9 @@ import React from "react";
 import "../styles/scss/style.scss";
 
 import Navigation from "./Navigation";
+import Footer from "../components/Footer";
 
-class Template extends React.Component {
+class Layout extends React.Component {
   render() {
     const { children } = this.props;
 
@@ -12,9 +13,10 @@ class Template extends React.Component {
       <div>
         <Navigation />
         {children}
+        <Footer />
       </div>
     );
   }
 }
 
-export default Template;
+export default Layout;

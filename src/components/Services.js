@@ -32,10 +32,10 @@ class Template extends Component {
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__icon">
-                  <i class="icon-air-freight"></i>
+                  <i class="icon-courier"></i>
                 </div>
                 <div class="service__content">
-                  <h4 class="service__title">Air Freight</h4>
+                  <h4 class="service__title">Expedited Delivery</h4>
                   <p class="service__desc">
                     We can arrange and provides with the comprehensive service
                     in the sphere of urgent, valuable, fragile or any cargoes
@@ -51,10 +51,10 @@ class Template extends Component {
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__icon">
-                  <i class="icon-cargo-ship"></i>
+                  <i class="icon-delivery-truck-2"></i>
                 </div>
                 <div class="service__content">
-                  <h4 class="service__title">Ocean Freight</h4>
+                  <h4 class="service__title">Final Mile</h4>
                   <p class="service__desc">
                     We provides with the main types of basic conditions
                     International sea transportation is implemented by our
@@ -73,7 +73,7 @@ class Template extends Component {
                   <i class="icon-truck"></i>
                 </div>
                 <div class="service__content">
-                  <h4 class="service__title">Road Freight</h4>
+                  <h4 class="service__title">Long Haul</h4>
                   <p class="service__desc">
                     We provides with the main types of basic conditions
                     International sea transportation is implemented by our

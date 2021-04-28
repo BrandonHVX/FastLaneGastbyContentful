@@ -19,7 +19,7 @@ import Img from "gatsby-image";
 
 import Features from "../components/Features";
 import Footer from "../components/Footer";
-
+import Services from "../components/Services";
 import Cta from "../components/Cta";
 import Quote from "../components/Quote";
 
@@ -86,7 +86,7 @@ class RootIndex extends React.Component {
                   <i class="icon-call-center"></i>
                 </div>
                 <div class="fancybox__content">
-                  <h4 class="fancybox__title">24/7 Hour Support</h4>
+                  <h4 class="fancybox__title">Daily Operations</h4>
                   <p class="fancybox__desc">
                     Ensure customers’ supply chains are fully compliant by
                     practices.
@@ -96,10 +96,10 @@ class RootIndex extends React.Component {
 
               <div class="col-sm-6 col-md-6 col-lg-3 fancybox-item">
                 <div class="fancybox__icon">
-                  <i class="icon-trolley"></i>
+                  <i class="icon-forklift-1"></i>
                 </div>
                 <div class="fancybox__content">
-                  <h4 class="fancybox__title">Warehouse Storage</h4>
+                  <h4 class="fancybox__title">""</h4>
                   <p class="fancybox__desc">
                     Depending on your product, we provide warehouse activities.
                   </p>
@@ -133,11 +133,9 @@ class RootIndex extends React.Component {
         </Jumbotron>
 
         <Features />
-        {/* <Services /> */}
+        <Services />
 
         <Cta />
-
-        <Footer />
       </Layout>
     );
   }
