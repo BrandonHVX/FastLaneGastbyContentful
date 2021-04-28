@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 
 import "../styles/scss/style.scss";
-import Container from "./container";
-import Navigation from "./navigation";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 class Template extends Component {
   render() {

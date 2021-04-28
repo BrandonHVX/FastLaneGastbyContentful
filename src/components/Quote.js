@@ -100,11 +100,29 @@ export default class Quote extends Component {
                             </div>
                           </div>
                           <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Pickup Date"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Delivery Date"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-4 col-lg-4">
                             <div class="form-group form-group-select">
                               <select class="form-control">
-                                <option>Incoterms</option>
-                                <option>Incoterms 1</option>
-                                <option>Incoterms 2</option>
+                                <option>Commodity</option>
+                                <option>Commodity</option>
+                                <option>Commodity</option>
                               </select>
                             </div>
                           </div>
@@ -141,37 +159,12 @@ export default class Quote extends Component {
                             </div>
                           </div>
                           <div class="col-sm-12 col-md-12 col-lg-12 d-flex flex-wrap">
-                            <div class="form-group input-radio">
-                              <label class="label-radio">
-                                Fragile
-                                <input
-                                  type="radio"
-                                  name="radioGroup2"
-                                  checked=""
-                                />
-                                <span class="radio-indicator"></span>
-                              </label>
-                            </div>
-                            <div class="form-group input-radio">
-                              <label class="label-radio">
-                                Express Delivery
-                                <input type="radio" name="radioGroup2" />
-                                <span class="radio-indicator"></span>
-                              </label>
-                            </div>
-                            <div class="form-group input-radio">
-                              <label class="label-radio">
-                                Insurance
-                                <input type="radio" name="radioGroup2" />
-                                <span class="radio-indicator"></span>
-                              </label>
-                            </div>
-                            <div class="form-group input-radio">
-                              <label class="label-radio">
-                                Packaging
-                                <input type="radio" name="radioGroup2" />
-                                <span class="radio-indicator"></span>
-                              </label>
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Special Comments"
+                              />
                             </div>
                           </div>
                           <div class="col-sm-12 col-md-12 col-lg-12">

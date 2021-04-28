@@ -18,7 +18,7 @@ import Layout from "../components/Layout";
 import Img from "gatsby-image";
 
 import Features from "../components/Features";
-import Footer from "../components/Footer";
+
 import Services from "../components/Services";
 import Cta from "../components/Cta";
 import Quote from "../components/Quote";
@@ -99,7 +99,7 @@ class RootIndex extends React.Component {
                   <i class="icon-forklift-1"></i>
                 </div>
                 <div class="fancybox__content">
-                  <h4 class="fancybox__title">""</h4>
+                  <h4 class="fancybox__title">Next Day Lanes</h4>
                   <p class="fancybox__desc">
                     Depending on your product, we provide warehouse activities.
                   </p>
