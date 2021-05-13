@@ -48,7 +48,7 @@ const Navigation = () => {
                     <Link
                       to="/company/about"
                       activeClassName="nav__item-link active"
-                      class="dropdown-toggle nav__item-link"
+                      class="nav__item-link"
                     >
                       About Us
                     </Link>
@@ -58,7 +58,7 @@ const Navigation = () => {
                     <Link
                       to="/company/about"
                       activeClassName="nav__item-link active"
-                      class="dropdown-toggle nav__item-link"
+                      class="nav__item-link"
                     >
                       Why Choose Us
                     </Link>
@@ -68,7 +68,7 @@ const Navigation = () => {
                     <Link
                       to="/company/about"
                       activeClassName="nav__item-link active"
-                      class="dropdown-toggle nav__item-link"
+                      class="nav__item-link"
                     >
                       Leadership Team
                     </Link>
@@ -91,36 +91,32 @@ const Navigation = () => {
                         <h6>Transport Services</h6>
                         <ul class="nav flex-column">
                           <li class="nav__item">
-                            <a
+                            <Link
+                              to="/transportation/expedited_delivery/"
+                              activeClassName="nav__item-link active"
                               class="nav__item-link"
-                              href="single-service.html"
-                            >
-                              Warehousing
-                            </a>
-                          </li>
-                          <li class="nav__item">
-                            <a
-                              class="nav__item-link"
-                              href="single-service.html"
                             >
                               Expedited Delivery
-                            </a>
+                            </Link>
                           </li>
+
                           <li class="nav__item">
-                            <a
+                            <Link
+                              to="/transportation/final_mile/"
+                              activeClassName="nav__item-link active"
                               class="nav__item-link"
-                              href="single-service.html"
                             >
                               Final Mile
-                            </a>
+                            </Link>
                           </li>
                           <li class="nav__item">
-                            <a
+                            <Link
+                              to="/transportation/long_haul/"
+                              activeClassName="nav__item-link active"
                               class="nav__item-link"
-                              href="single-service.html"
                             >
                               Long Haul
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -128,37 +124,17 @@ const Navigation = () => {
                         <h6>Industry Solutions</h6>
                         <ul class="nav flex-column">
                           <li class="nav__item">
-                            <a
-                              class="nav__item-link"
-                              href="single-industry.html"
-                            >
-                              Amazon Delivery
-                            </a>
+                            <a class="nav__item-link">Amazon Delivery</a>
                           </li>
                           <li class="nav__item">
-                            <a
-                              class="nav__item-link"
-                              href="single-industry.html"
-                            >
-                              Owners & Operators
-                            </a>
+                            <a class="nav__item-link">Owners & Operators</a>
                           </li>
 
                           <li class="nav__item">
-                            <a
-                              class="nav__item-link"
-                              href="single-industry.html"
-                            >
-                              Food & Beverage
-                            </a>
+                            <a class="nav__item-link">Food & Beverage</a>
                           </li>
                           <li class="nav__item">
-                            <a
-                              class="nav__item-link"
-                              href="single-industry.html"
-                            >
-                              Small Businesses
-                            </a>
+                            <a class="nav__item-link">Small Businesses</a>
                           </li>
                         </ul>
                       </div>
@@ -168,9 +144,7 @@ const Navigation = () => {
               </li>
 
               <li class="nav__item">
-                <a href="contacs.html" class="nav__item-link">
-                  Contact
-                </a>
+                <a class="nav__item-link">Contact</a>
               </li>
             </ul>
           </div>
@@ -182,10 +156,7 @@ const Navigation = () => {
                 </a>
               </li>
               <li class="d-none d-lg-block">
-                <a
-                  href="request-quote.html"
-                  class="module__btn btn__request btn"
-                >
+                <a class="module__btn btn__request btn">
                   <span>Request A Quote</span>
                   <i class="icon-arrow-right"></i>
                 </a>
